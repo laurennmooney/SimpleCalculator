@@ -4,7 +4,7 @@ namespace SimpleCalculator
 {
     public class InputConverter
     {
-        public double ConvertInputToNumber(string inputAsString)
+        public double ConvertInputToNumeric(string inputAsString)
         {
             double convertedNumber;
 

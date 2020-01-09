@@ -10,10 +10,10 @@ namespace SimpleCalculator
             CalculatorEngine calculatorEngine = new CalculatorEngine();
 
             Console.WriteLine("Please enter your first number");
-            double firstNumber = inputConverter.ConvertInputToNumber(Console.ReadLine());
+            double firstNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
 
             Console.WriteLine("Please enter your second number");
-            double secondNumber = inputConverter.ConvertInputToNumber(Console.ReadLine());
+            double secondNumber = inputConverter.ConvertInputToNumeric(Console.ReadLine());
 
             Console.WriteLine("Please enter the operation");
             string operation = Console.ReadLine();
